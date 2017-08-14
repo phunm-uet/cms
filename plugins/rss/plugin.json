@@ -1,0 +1,9 @@
+{
+    "name": "Rss",
+    "provider": "Botble\\Rss\\Providers\\RssServiceProvider",
+    "plugin": "Botble\\Rss\\Plugin",
+    "author": "Minh Phu Nguyen",
+    "url": "http://facebook.com/phuapple",
+    "version": "1.0",
+    "description": "Rss for Instant article"
+}

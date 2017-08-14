@@ -1,0 +1,9 @@
+<?php
+
+namespace Botble\{Plugin}\Repositories\Interfaces;
+
+use Botble\Base\Repositories\Interfaces\RepositoryInterface;
+
+interface {Plugin}Interface extends RepositoryInterface
+{
+}

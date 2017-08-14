@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        {!! SeoHelper::render() !!}
+
+        {!! Theme::asset()->styles() !!}
+        {!! Theme::asset()->scripts() !!}
+    </head>
+    <body>
+        {!! Theme::partial('header') !!}
+
+        <div class="container">
+            {!! Theme::content() !!}
+        </div>
+
+        {!! Theme::partial('footer') !!}
+
+        {!! Theme::asset()->container('footer')->scripts() !!}
+    </body>
+</html>

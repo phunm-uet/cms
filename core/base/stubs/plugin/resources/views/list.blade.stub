@@ -1,0 +1,4 @@
+@extends('bases::layouts.master')
+@section('content')
+    @include('bases::elements.tables.datatables', ['title' => trans('{plugin}::{plugin}.list'), 'dataTable' => $dataTable])
+@stop

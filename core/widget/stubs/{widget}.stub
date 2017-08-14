@@ -1,0 +1,27 @@
+<?php
+
+use Botble\Widget\AbstractWidget;
+
+class {Widget}Widget extends AbstractWidget
+{
+    /**
+     * The configuration array.
+     *
+     * @var array
+     */
+    protected $config = [];
+
+    protected $frontendTemplate = 'frontend';
+
+    protected $backendTemplate = 'backend';
+
+    protected $widgetDirectory = '{widget}';
+
+    public function __construct()
+    {
+        parent::__construct([
+            'name' => '{Widget}',
+            'description' => 'This is a sample widget',
+        ]);
+    }
+}

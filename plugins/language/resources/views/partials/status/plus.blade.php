@@ -1,0 +1,1 @@
+<a href="{{ route($route . '.' . 'create') }}?from={{ $item->id }}&lang={{ $language->code }}" class="tip" title="{{ trans('language::language.add_language_for_item') }}"><i class="fa fa-plus"></i></a>
